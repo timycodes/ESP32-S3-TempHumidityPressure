@@ -6,6 +6,7 @@
   ESP32-S3 microcontroller (MCU)unit or System on Chip (SoC): it is both because it includes the 
   processor, memory support, Wi-Fi, Bluebooth and other hardware features in one chip/module. 
 
+  # Features : Specification
   The board uses an Espressif ESP32-S3_WROOM-1 MODULE:
   MCU/PROCESSOR: ESP32-S3
   CPU core: Dual-core Xtensa LX7
@@ -19,6 +20,8 @@
   GPIO PINS : up to 36 on ESP32-S3-WROOM-1
   USB: NATIVE USB SUPPORT: depends on board wiring.
   ADC: Analog input support
+  Interfaces: I2C, SPI, UART, I2S, PWM, ADC, USB, etc.
+  Antenna: Built-in PCB antenna on the module.
   
  
 
