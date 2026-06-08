@@ -9,7 +9,7 @@
 
   # Feature : Specification
   The board uses an Espressif ESP32-S3_WROOM-1 MODULE:
-  1. MCU/PROCESSOR: ESP32-S3
+  1. MCU/PROCESSOR: ESP32-S3 (Variant:N8R8 8 MB flash/ 8 MB PSRAM configuration).
   2. CPU core: Dual-core Xtensa LX7
   3. CPU speed: Up to 240 MHz
   4. Architecture: 32-bit
