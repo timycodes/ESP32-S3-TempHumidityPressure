@@ -2,7 +2,7 @@
   This project reads temperature, humidity, and pressure using an ESP32 and a BME280 sensor.
 
 ## ESPRESSIF ESP32-S3-WROOM-1
-  - The sqaure metal-can module located at top of the board with writing on it contains the
+  - The square metal-can module located at top of the board with writing on it contains the
     ESP32-S3 microcontroller (MCU)unit or System on Chip (SoC): it is both because it
     includes the processor, memory support, Wi-Fi, Bluebooth and other hardware features
     in one chip/module. 
