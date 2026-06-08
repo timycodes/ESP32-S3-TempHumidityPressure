@@ -48,7 +48,7 @@
   5. Driver: SSD1306 **(some similar-looking OLED's use the SH1106 driver)**
 
 
-  SSD1306 is the controller chip part number made by Solomon Systech.
-  When people say, "SSD1306 OLED" they mean: "An OLED display module that uses the SSD1306 controller chip".
+  **SSD1306 is the controller chip part number made by Solomon Systech.
+  When people say, "SSD1306 OLED" they mean: "An OLED display module that uses the SSD1306 controller chip".**
 
   
