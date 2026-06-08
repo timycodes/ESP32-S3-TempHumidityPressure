@@ -10,13 +10,13 @@
   # Feature : Specification
   The board uses an Espressif ESP32-S3_WROOM-1 MODULE:
   1. MCU/PROCESSOR: ESP32-S3 (MY Variant: N8R8; 8 MB flash / 8 MB PSRAM configuration).
-     R8 = 8 MG PSRAM
-     OPI PSRAM: the OPI means: Octal Peripheral Interface. In plain English: "the
-     ESP32-S3 talks to the external PSRAM using 8-bit-wide data connection.
+     a. R8 = 8 MG PSRAM
+     b. OPI PSRAM: the OPI means: Octal Peripheral Interface. In plain English: "the
+        ESP32-S3 talks to the external PSRAM using 8-bit-wide data connection.
 
-     A. Think of it like lanes on a road:
-       SPI = fewer lanes
-       OPI = 8 lanes.
+      c. Think of it like lanes on a road:
+         SPI = fewer lanes
+         OPI = 8 lanes.
   
   
   3. CPU core: Dual-core Xtensa LX7
