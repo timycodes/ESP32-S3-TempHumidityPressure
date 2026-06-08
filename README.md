@@ -11,7 +11,7 @@
   **The board is an Espressif ESP32-S3_WROOM-1 MODULE**
   1. MCU/PROCESSOR: ESP32-S3 
      #### MY Variant: N8R8; 8 MB flash / 8 MB PSRAM configuration.
-     - N8 = 8 MG built-in flash memory (stores your program/code).
+     - N8 = 8 MG built-in flash memory (stores your program/code/sketch).
        --  Keeps data after power off.
      - RAM = Temporary working memory.
      - R8 = 8 MG PSRAM (Extra temporary working memory)
