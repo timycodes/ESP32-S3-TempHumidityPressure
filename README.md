@@ -7,8 +7,8 @@
   ESP32-S3 microcontroller (MCU)unit or System on Chip (SoC): it is both because it includes the 
   processor, memory support, Wi-Fi, Bluebooth and other hardware features in one chip/module. 
 
-  # Feature : Specification
-  The board uses an Espressif ESP32-S3_WROOM-1 MODULE:
+  ## Feature : Specification
+  - The board uses an Espressif ESP32-S3_WROOM-1 MODULE:
   1. MCU/PROCESSOR: ESP32-S3 (MY Variant: N8R8; 8 MB flash / 8 MB PSRAM configuration).
   2. R8 = 8 MG PSRAM
   3. OPI PSRAM: the OPI means: Octal Peripheral Interface. In plain English: "the
