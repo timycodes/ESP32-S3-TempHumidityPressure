@@ -3,7 +3,7 @@
 
 ## ESPRESSIF ESP32-S3-WROOM-1
   - The sqaure metal-can module located at top of the board with writing on it contains the
-  - ESP32-S3 microcontroller (MCU)unit or System on Chip (SoC): it is both because it
+    ESP32-S3 microcontroller (MCU)unit or System on Chip (SoC): it is both because it
     includes the processor, memory support, Wi-Fi, Bluebooth and other hardware features
     in one chip/module. 
 
