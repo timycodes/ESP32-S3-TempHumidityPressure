@@ -34,12 +34,12 @@
   
  
 
-# Small I2C OLED display: 0.96-inch 128x64 OLED display using the SSD1306 driver.
+## Small I2C OLED display: 0.96-inch 128x64 OLED display using the SSD1306 driver.
   Four Pins:
-  1. VCC: Power.
-  2. GND: Ground.
-  3. SCL: Clock.
-  4. SDA: Data
+  - VCC: Power.
+  - GND: Ground.
+  - SCL: Clock.
+  - SDA: Data.
 
   Interface: I2C
 
