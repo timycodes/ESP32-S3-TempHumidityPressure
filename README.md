@@ -1,5 +1,5 @@
 # ESP32-S3-TempHumidityPressure
-ESP32-S3 combined with an ELOD display and BME280 sensor that sends data to smartphone and computer.
+  ESP32-S3 combined with an I2C OLED display and BME280 sensor that sends data to both a smartphone and computer.
 
 
 # Small I2C OLED display: 0.96-inch 128x64 OLED display using the SSD1306 driver.
