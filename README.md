@@ -9,9 +9,10 @@
 
   ### Features : Specification
   **The board is an Espressif ESP32-S3_WROOM-1 MODULE**
-  1. MCU/PROCESSOR: ESP32-S3 (MY Variant: N8R8; 8 MB flash / 8 MB PSRAM configuration).
+  1. MCU/PROCESSOR: ESP32-S3 (
+     - MY Variant: N8R8; 8 MB flash / 8 MB PSRAM configuration).
     R8 = 8 MG PSRAM
-  2. OPI PSRAM: the OPI means: Octal Peripheral Interface.
+  3. OPI PSRAM: the OPI means: Octal Peripheral Interface.
      - In plain English: "the
         ESP32-S3 talks to the external PSRAM using 8-bit-wide data connection.
      - Think of it like lanes on a road:
@@ -19,19 +20,19 @@
          OPI = 8 lanes.
   
   
-  3. CPU core: Dual-core Xtensa LX7
-  4. CPU speed: Up to 240 MHz
-  5. Architecture: 32-bit
-  6. WiFi:  2.4 GHz 802.11 b/g/n
-  7. Bluetooth:  BLE 5 ( Bluetooth 5 Low Energy )
-  8. Internal SRAM: 512 KB
-  9. ROM: 384 KB
-  10. RTC SRAM: 16 KB
-  11. GPIO PINS : up to 36 on ESP32-S3-WROOM-1
-  12. USB: NATIVE USB SUPPORT: depends on board wiring.
-  13. ADC: Analog input support
-  14. Interfaces: I2C, SPI, UART, I2S, PWM, ADC, USB, etc.
-  15. Antenna: Built-in PCB antenna on the module.
+  4. CPU core: Dual-core Xtensa LX7
+  5. CPU speed: Up to 240 MHz
+  6. Architecture: 32-bit
+  7. WiFi:  2.4 GHz 802.11 b/g/n
+  8. Bluetooth:  BLE 5 ( Bluetooth 5 Low Energy )
+  9. Internal SRAM: 512 KB
+  10. ROM: 384 KB
+  11. RTC SRAM: 16 KB
+  12. GPIO PINS : up to 36 on ESP32-S3-WROOM-1
+  13. USB: NATIVE USB SUPPORT: depends on board wiring.
+  14. ADC: Analog input support
+  15. Interfaces: I2C, SPI, UART, I2S, PWM, ADC, USB, etc.
+  16. Antenna: Built-in PCB antenna on the module.
   
  
 
