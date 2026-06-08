@@ -9,20 +9,20 @@
 
   # Feature : Specification
   The board uses an Espressif ESP32-S3_WROOM-1 MODULE:
-  MCU/PROCESSOR: ESP32-S3
-  CPU core: Dual-core Xtensa LX7
-  CPU speed: Up to 240 MHz
-  Architecture: 32-bit
-  WiFi:  2.4 GHz 802.11 b/g/n
-  Bluetooth:  BLE 5 ( Bluetooth 5 Low Energy )
-  Internal SRAM: 512 KB
-  ROM: 384 KB
-  RTC SRAM: 16 KB
-  GPIO PINS : up to 36 on ESP32-S3-WROOM-1
-  USB: NATIVE USB SUPPORT: depends on board wiring.
-  ADC: Analog input support
-  Interfaces: I2C, SPI, UART, I2S, PWM, ADC, USB, etc.
-  Antenna: Built-in PCB antenna on the module.
+  1. MCU/PROCESSOR: ESP32-S3
+  2. CPU core: Dual-core Xtensa LX7
+  3. CPU speed: Up to 240 MHz
+  4. Architecture: 32-bit
+  5. WiFi:  2.4 GHz 802.11 b/g/n
+  6. Bluetooth:  BLE 5 ( Bluetooth 5 Low Energy )
+  7. Internal SRAM: 512 KB
+  8. ROM: 384 KB
+  9. RTC SRAM: 16 KB
+  10. GPIO PINS : up to 36 on ESP32-S3-WROOM-1
+  11. USB: NATIVE USB SUPPORT: depends on board wiring.
+  12. ADC: Analog input support
+  13. Interfaces: I2C, SPI, UART, I2S, PWM, ADC, USB, etc.
+  14. Antenna: Built-in PCB antenna on the module.
   
  
 
