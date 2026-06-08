@@ -12,9 +12,9 @@
   1. MCU/PROCESSOR: ESP32-S3 
      #### MY Variant: N8R8; 8 MB flash / 8 MB PSRAM configuration.
      - N8 = 8 MG built-in flash memory (stores your program/code).
-       -- Keeps data after power off.
+       --  Keeps data after power off.
      - RAM = Temporary working memory.
-     - R8 = 8 MG PSRAM
+     - R8 = 8 MG PSRAM (Extra temporary working memory)
   3. OPI PSRAM: the OPI means: Octal Peripheral Interface.
      - In plain English: "the
         ESP32-S3 talks to the external PSRAM using 8-bit-wide data connection.
