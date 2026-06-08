@@ -7,7 +7,7 @@
     includes the processor, memory support, Wi-Fi, Bluebooth and other hardware features
     in one chip/module. 
 
-  ## Features : Specification
+  ### Features : Specification
   - The board uses an Espressif ESP32-S3_WROOM-1 MODULE:
   - MCU/PROCESSOR: ESP32-S3 (MY Variant: N8R8; 8 MB flash / 8 MB PSRAM configuration).
     R8 = 8 MG PSRAM
