@@ -1,6 +1,5 @@
-# Project goal
-  Take a ESP32-S3 combined with an I2C OLED display and BME280 sensor that sends
-  data to  both a smartphone and computer.
+# My ESP Weather Project
+  This project reads temperature, humidity, and pressure using an ESP32 and a BME280 sensor.
 
 # ESPRESSIF ESP32-S3-WROOM-1
   The sqaure metal-can module located at top of the board with writing on it contains the
