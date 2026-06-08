@@ -35,17 +35,17 @@
  
 
 ## Small I2C OLED display: 0.96-inch 128x64 OLED display using the SSD1306 driver.
-  Four Pins:
+  1. Four Pins:
   - VCC: Power.
   - GND: Ground.
   - SCL: Clock.
   - SDA: Data.
 
-  Interface: I2C
+  2. Interface: I2C
 
-  Size: 0.96 inches
-  Resolution: 128x64
-  Driver: SSD1306 (some similar-looking OLED's use the SH1106 driver)
+  3. Size: 0.96 inches
+  4. Resolution: 128x64
+  5. Driver: SSD1306 **(some similar-looking OLED's use the SH1106 driver)**
 
 
   SSD1306 is the controller chip part number made by Solomon Systech.
