@@ -15,7 +15,7 @@
        --  Keeps data after power off.
      - RAM = Temporary working memory. (On power OFF: data erased.)
      - R8 = 8 MG **PSRAM** (Extra temporary working memory) (On power OFF: data erased.)
-  3. OPI PSRAM: the OPI means: Octal Peripheral Interface.
+  3. OPI PSRAM: the OPI means: **Octal Peripheral Interface.**
      - In plain English: "the
         ESP32-S3 talks to the external PSRAM using 8-bit-wide data connection.
      - Think of it like lanes on a road:
