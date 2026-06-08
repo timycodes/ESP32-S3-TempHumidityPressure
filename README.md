@@ -6,7 +6,7 @@
   ESP32-S3 microcontroller (MCU)unit or System on Chip (SoC): it is both because it includes the 
   processor, memory support, Wi-Fi, Bluebooth and other hardware features in one chip/module. 
 
-  # Features : Specification
+  # Feature : Specification
   The board uses an Espressif ESP32-S3_WROOM-1 MODULE:
   MCU/PROCESSOR: ESP32-S3
   CPU core: Dual-core Xtensa LX7
