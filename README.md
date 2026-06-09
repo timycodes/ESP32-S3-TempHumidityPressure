@@ -8,7 +8,7 @@
     in one chip/module. 
 
   ### Features : Specification
-  **( My board is an Espressif ESP32-S3_WROOM-1 MODULE)**
+  **( My board is an Espressif ESP32-S3-WROOM-1 MODULE)**
   1. MCU/PROCESSOR: ESP32-S3 
      #### MY Variant: N8R8; 8 MB flash / 8 MB PSRAM configuration.
      - N8 = 8 MG **built-in flash memory** (stores your program/code/sketch).
