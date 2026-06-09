@@ -35,8 +35,9 @@
   13. USB: NATIVE USB SUPPORT: depends on board wiring.
   14. ADC: Analog input support
   15. Interfaces:
-      - I2C: **Inter-Integrated Circuit**:Lets yout ESP32 talk to other electronic devices
+      - I2C: **Inter-Integrated Circuit**:Lets your ESP32 talk to other electronic devices
         using only **two signal wires.**
+        - 
       - SPI,
       - UART,
       - I2S,
