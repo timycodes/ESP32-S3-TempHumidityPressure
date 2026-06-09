@@ -34,8 +34,15 @@
   12. GPIO PINS : up to 36 on ESP32-S3-WROOM-1
   13. USB: NATIVE USB SUPPORT: depends on board wiring.
   14. ADC: Analog input support
-  15. Interfaces: I2C, SPI, UART, I2S, PWM, ADC, USB, etc.
-  16. Antenna: Built-in PCB antenna on the module.
+  15. Interfaces:
+      - I2C,
+      - SPI,
+      - UART,
+      - I2S,
+      - PWM,
+      - ADC,
+      - USB, 
+  17. Antenna: Built-in PCB antenna on the module.
   
  
 
