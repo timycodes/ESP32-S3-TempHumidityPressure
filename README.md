@@ -19,7 +19,7 @@
      - In plain English: "the
         ESP32-S3 talks to the external PSRAM using 8-bit-wide data connection.
      - Think of it like lanes on a road:
-         SPI = fewer lanes
+         SPI = fewer lanes,
          OPI = 8 lanes.
   
   
