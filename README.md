@@ -40,7 +40,11 @@
         OLED = 0x3C(3D).
         Therefore, both devices can connect to the same SDA (data talking wire) and SCL(timimg clock wire) lines as they have different addresses.
       - SPI,
-      - UART,
+      - UART: **(Universal Asynchronous Receiver/Transmitter)**: is a commmunication method that lets two
+        electronic devices send data back and forth using serial communication.
+          - UART = Tx sends, RX receives
+          - I2C = SDA data, SCL clock
+                 
       - I2S,
       - PWM,
       - ADC,
