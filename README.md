@@ -41,10 +41,13 @@
         Therefore, both devices can connect to the same SDA (data talking wire) and SCL(timimg clock wire) lines as they have different addresses.
       - SPI,
       - UART: **(Universal Asynchronous Receiver/Transmitter)**: is a commmunication method that lets two
-        electronic devices send data back and forth using serial communication.
-          - UART = Tx sends, RX receives
-          - I2C = SDA data, SCL clock
-                 
+        electronic devices send data back and forth using serial communication. UART is for things like
+          - Serial Monitor messages.
+          - GPS modules.
+          - Bluetooth serial modules.
+          - Some displays.
+          - Communication between two microcontrollers
+          - Debugging your code.
       - I2S,
       - PWM,
       - ADC,
