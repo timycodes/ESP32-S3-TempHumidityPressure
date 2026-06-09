@@ -38,7 +38,7 @@
       - I2C: **Inter-Integrated Circuit**:Lets your ESP32 talk to other electronic devices
         using only **two signal wires.** Devices each have their own address (ex. BME280 = 0x76(77) and
         OLED = 0x3C(3D).
-        Therefore, both devices can connect to the same SDA and SCL lines as they have different addresses.
+        Therefore, both devices can connect to the same SDA (data talking wire) and SCL(timimg clock wire) lines as they have different addresses.
       - SPI,
       - UART,
       - I2S,
@@ -50,7 +50,7 @@
  
 
 ## Small I2C OLED display: 0.96-inch 128x64 OLED display using the SSD1306 driver.
-  1. Four Pins:
+### Four Pins:
   - VCC/VIN: Power.
   - GND: Ground.
   - SCL: Clock.
