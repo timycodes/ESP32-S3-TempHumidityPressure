@@ -1,33 +1,46 @@
-// Arduino Libraries to install
+// Arduino Libraries to install:
 // In Arduino IDE go to: Sketch->Include->Manage Libraries.
-// Add: U8g2, Adafruit BME280 Library, Adafruit_Sensor
+// Search and add: U8g2, Adafruit BME280 Library, Adafruit_Sensor
 
 // #include <some_library_name.h>  This means bring in these prewritten header files
 // so this program can use the functions, classes and definitions inside them.
 
-// Library used for I^2C (I-2-C) communication over two signal wires: SDA & SCL (data/clock)
+// I2C communication.
+
 #include <Wire.h>
 
-// U8g2 is the Library. SH1106 is the display's chip/driver inside the OLED display.
+// U8g2 is the Library. 
+// SH1106 is the display's chip/driver inside the OLED display.
+
 #include <U8g2lib.h> 
 
-// Library for the Enviromental sensor
+// BME280 sensor library
+
 #include <Adafruit_BME280.h>
+
+// Brings in the Adafruit Unified Sensor library: the BME280 library depends on it.
+
 #include <Adafruit_Sensor.h>
 
-// ESP32-S3 I2C pins
+// ESP32-S3 I2C pins: used for I2C communication. SDA = Serial Data Line, SCL = Serial CLock Line.
+// GPIO 8 = I2C data wire.  GPIO 9 = I2C clock wire.
+// Both the OLED and the BME280 use the same two I2C signal wires.
+
 #define SDA_PIN 8
 #define SCL_PIN 9
 
 // BME280 possible I2C addresses
+
 #define BME_ADDRESS_1 0x76
 #define BME_ADDRESS_2 0x77
 
 // OLED display using U8g2
 // This is for many DIYmall 1.3 inch OLED displays using SH1106
+
 U8G2_SH1106_128X64_NONAME_F_HW_I2C display(U8G2_R0, U8X8_PIN_NONE);
 
 // BME280 sensor object
+
 Adafruit_BME280 bme;
 
 bool bmeFound = false;
