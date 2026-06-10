@@ -1,5 +1,9 @@
+// Arduino Libraries to install
+// In Arduino IDE go to: Sketch->Include->Manage Libraries.
+// Add: U8g2, Adafruit BME280 Library, Adafruit_Sensor
+
 #include <Wire.h>
-#include <U8g2lib.h>
+#include <U8g2lib.h>  // u8g2:SH1106
 #include <Adafruit_BME280.h>
 #include <Adafruit_Sensor.h>
 
