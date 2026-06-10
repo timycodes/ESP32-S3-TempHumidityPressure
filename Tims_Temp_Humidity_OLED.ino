@@ -2,8 +2,16 @@
 // In Arduino IDE go to: Sketch->Include->Manage Libraries.
 // Add: U8g2, Adafruit BME280 Library, Adafruit_Sensor
 
+// #include <some_library_name.h>  This means bring in these prewritten header files
+// so this program can use the functions, classes and definitions inside them.
+
+// Library used for I^2C (I-2-C) communication over two signal wires: SDA & SCL (data/clock)
 #include <Wire.h>
-#include <U8g2lib.h>  // u8g2:SH1106
+
+// U8g2 is the Library. SH1106 is the display's chip/driver inside the OLED display.
+#include <U8g2lib.h> 
+
+// Library for the Enviromental sensor
 #include <Adafruit_BME280.h>
 #include <Adafruit_Sensor.h>
 
