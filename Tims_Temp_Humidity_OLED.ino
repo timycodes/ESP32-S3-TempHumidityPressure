@@ -25,12 +25,11 @@
 // ESP32-S3 I2C pins: used for I2C communication. SDA = Serial Data Line, SCL = Serial CLock Line.
 // GPIO 8 = I2C data wire.  GPIO 9 = I2C clock wire.
 // Both the OLED and the BME280 use the same two I2C signal wires.
-
+// PIN Setup:
 #define SDA_PIN 8
 #define SCL_PIN 9
 
-// BME280 possible I2C addresses
-
+// BME280 possible I2C addresses:
 #define BME_ADDRESS_1 0x76
 #define BME_ADDRESS_2 0x77
 
@@ -39,15 +38,14 @@
 
 U8G2_SH1106_128X64_NONAME_F_HW_I2C display(U8G2_R0, U8X8_PIN_NONE);
 
-// BME280 sensor object
-
+// BME280 sensor object:
 Adafruit_BME280 bme;
 
 bool bmeFound = false;
 
-// required 
+// required function
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(115200);  // baud rate is set to: 115200 bits/second
   delay(1000);
 
   // Start I2C on ESP32-S3 pins
