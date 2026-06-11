@@ -17,10 +17,10 @@
 //const char* password = "Your_PASSWORD";   // uncomment for local Wi-Fi.
 
 // *** Setup for a "Hotspot" ***
-const char* ap_ssid = "Your_SSID";
-const char* ap_password = "123456789"; //PASSWORD: at least 8 chars
+const char* ap_ssid = "Your_SSID";     // Change
+const char* ap_password = "12345678"; // Change ( at least 8 characters )
 
-// Web server on port 80.  (Usually the IP Address for the Hotspot is 192.168.4.1, (thus, 192.168.4.1:80)
+// Web server on default port 80.  (Usually the IP Address for the Hotspot is 192.168.4.1 (no need to use :80 as it's default)
 WebServer server(80);
 
 // OLED display
